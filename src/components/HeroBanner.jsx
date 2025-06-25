@@ -14,7 +14,7 @@ export default function HeroBanner() {
       <div className="hero-image">
         <img
           src="https://cdn.pixabay.com/photo/2017/08/06/02/24/doctor-2585793_1280.jpg"
-          alt="Healthcare"
+          alt="Healthcare Image "
         />
       </div>
     </section>
