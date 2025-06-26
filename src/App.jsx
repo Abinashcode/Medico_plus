@@ -1,15 +1,22 @@
 import React from 'react';
 import Header from './components/Header';
 import HeroBanner from './components/HeroBanner';
-import './App.css'; // Optional if needed
 import FeatureCards from './components/FeatureCards';
+import AboutUs from './components/AboutUs';
+import StoreLocations from './components/StoreLocations';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Header />
       <HeroBanner />
-      <FeatureCards/>
+      <FeatureCards />
+      <AboutUs />
+      <StoreLocations />
+      <ContactForm />
+      <Footer />
     </>
   );
 }
