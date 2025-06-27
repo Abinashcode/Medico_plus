@@ -1,0 +1,48 @@
+/* src/components/WhyChooseUs.css */
+.why-choose-us {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.usp-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.usp-card {
+  background-color: #f0f9ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.usp-card:hover {
+  transform: translateY(-6px);
+}
+
+.usp-icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.usp-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #0077b6;
+}
+
+.usp-description {
+  font-size: 14px;
+  color: #555;
+}
